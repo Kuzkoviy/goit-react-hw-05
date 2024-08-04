@@ -1,0 +1,5 @@
+import axios from "axios";
+
+axios.defaults.baseURL = 'https://developer.themoviedb.org/3/'
+
+// eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkZDQzNDA2NzI0NmZiNjhhODlhMzFiYTFlMWM0OGQyMSIsIm5iZiI6MTcyMjgwMjEwOC41MzExNDYsInN1YiI6IjY2YWZkZTJhNTZiN2UzMDEyZGUyMzRkYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.qbUJfAapspBRbICzVuCXi0c2dkLs6SburgXVhxOPVrw
