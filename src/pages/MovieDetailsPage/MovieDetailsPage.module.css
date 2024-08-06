@@ -1,0 +1,59 @@
+.returnLink {
+    color: black;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    width: 90px;
+    border-radius: 4px;
+    background-color: rgb(228, 228, 228);
+    padding: 2px;
+  }
+  .container {
+    margin: 0 15px;
+  }
+  .movieWrapper {
+    margin-top: 13px;
+    display: flex;
+    gap: 15px;
+    border-bottom: 2px solid rgb(197, 197, 197);
+    padding-bottom: 20px;
+  }
+  .returnLink:hover {
+    background-color: lightgray;
+  }
+  .textWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .movieTitle,
+  .movieDetails {
+    margin-bottom: 20px;
+  }
+  .movieList {
+    display: flex;
+    gap: 10px;
+  }
+  .linkContainer {
+    display: block;
+    padding: 15px 0;
+    border-bottom: 2px solid rgb(197, 197, 197);
+  }
+  .movieCard {
+    width: 270px;
+    object-fit: cover;
+    display: block;
+  }
+  .linkWrapper {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .additionalLink {
+    color: black;
+  }
+  .additionalLink:hover {
+    color: rgb(187, 73, 73);
+  }

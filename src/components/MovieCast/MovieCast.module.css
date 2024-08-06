@@ -1,0 +1,15 @@
+.actorsList {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .actorsItem {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 10px;
+  }
+  .actorsItem:not(:last-child) {
+    border-bottom: 2px dashed lightgray;
+  }
